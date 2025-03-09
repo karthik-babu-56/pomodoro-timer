@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container bg-container d-flex flex-row justify-content-center">
+        <div class="text-center section">
+            <div>
+                <h1 id="timer-display" class="text-center">Pomodoro Timer</h1>
+            </div>
+            <div>
+                <h1 id="timer"><span id="minutes"></span>:<span id="seconds"></span></h1>
+            </div>
+            <div>
+                <button id="startBtn" type="button" class="btn btn-success buttons">START</button>
+                <button id="stopBtn" type="button" class="btn btn-danger">STOP</button>
+                <button id="resetBtn" type="button" class="btn btn-secondary">RESET</button>
+                <br>
+                <button id="shortbreakBtn" type="button" class="btn btn-primary">SHORT BREAK</button>
+                <button id="longbreakBtn" type="button" class="btn btn-info">LONG BREAK</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
