@@ -8,6 +8,16 @@
     height: 100vh;
 }
 
+.heading {
+    font-size: 3rem;
+}
+
+.timer {
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+}
+
 .section {
     display: flex;
     flex-direction: column;
